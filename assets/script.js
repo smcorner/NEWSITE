@@ -105,7 +105,7 @@ document.addEventListener('click', function (e) {
 
 // ─── CONTACT FORM (Cloudflare Worker + D1) ───────────────────────────────────
 // ↓ Replace this URL with your deployed Cloudflare Worker URL after setup
-var WORKER_URL = 'https://gstsyncpro-contact.YOUR_SUBDOMAIN.workers.dev/contact';
+var WORKER_URL = 'https://contact.manavsolankis3.workers.dev/';
 
 async function submitForm() {
   var nameEl    = document.getElementById('cf-name');
