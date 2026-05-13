@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How It Works — GSTSyncPro | Infitax Solution</title>
+<meta name="description" content="Learn how GSTSyncPro reconciles GSTR-2B with Books in 4 steps: upload, auto-match, review, and export. 100% local processing.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="../" class="nav-logo">
+      <div class="logo-icon">I</div>
+      <div class="logo-text">
+        <span class="logo-brand">Infitax Solution</span>
+        <span class="logo-sub">GSTSyncPro — GSTR-2B Reconciler</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../features/" data-nav="features">Features</a></li>
+      <li><a href="../how-it-works/" data-nav="how-it-works">How it Works</a></li>
+      <li><a href="../pricing/" data-nav="pricing">Pricing</a></li>
+      <li><a href="../faq/" data-nav="faq">FAQ</a></li>
+      <li><a href="../contact/" data-nav="contact">Contact</a></li>
+      <li><a href="../products/" data-nav="products" class="nav-products">Other Products</a></li>
+      
+    </ul>
+    <a href="../pricing/" class="nav-cta">Buy License</a>
+    <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="../features/" onclick="toggleMenu()">Features</a>
+  <a href="../how-it-works/" onclick="toggleMenu()">How it Works</a>
+  <a href="../pricing/" onclick="toggleMenu()">Pricing</a>
+  <a href="../faq/" onclick="toggleMenu()">FAQ</a>
+  <a href="../contact/" onclick="toggleMenu()">Contact</a>
+  <a href="../products/" onclick="toggleMenu()">Other Products</a>
+  <a href="../pricing/" onclick="toggleMenu()" style="color:var(--green-mid);font-weight:700;margin-top:8px">&#128273; Buy License</a>
+</div>
+<div class="page-header">
+  <div class="section-inner">
+    <div class="section-label">Simple Process</div>
+    <h1>How GSTSyncPro Works</h1>
+    <p>From file upload to a complete ITC summary in four easy steps. All processing happens locally in your browser — your data never leaves your device.</p>
+  </div>
+</div>
+<div class="page-inner">
+  <div class="steps">
+    <div class="step-card">
+      <div class="step-num">1</div>
+      <h3>Upload 4 Files</h3>
+      <p>Open GSTSyncPro in Chrome and drag &amp; drop (or click to browse) your four data files: GSTR-2B Purchase data, Books Purchase register, GSTR-2B CN/DN data, and Books CN/DN register. Supported formats: Excel (.xlsx, .xls) and CSV.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">2</div>
+      <h3>Auto-Reconcile</h3>
+      <p>Click "Reconcile" and GSTSyncPro automatically runs a <strong>3-pass purchase matching algorithm</strong> (Exact &#8594; Fuzzy &#8594; Amount-based) and a <strong>6-pass CN/DN matching algorithm</strong> (Cross-type + Same-type). Each pass catches records the previous pass missed.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">3</div>
+      <h3>Review &amp; Act</h3>
+      <p>Review each record in the results table. Use per-record actions — <em>Accept</em> matched pairs, <em>Unmatch</em> incorrect pairs, manually <em>Pair</em> records, <em>Force Pair</em> with overrides, or mark as <em>Not Matched</em>. Bulk select-all and GSTIN-filter make large datasets manageable.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">4</div>
+      <h3>Export Results</h3>
+      <p>When done, export your reconciliation as a formatted <strong>Excel file</strong> for filing, a <strong>JSON file</strong> for ERP integration, or use the <em>Copy ITC Summary</em> button to paste the net claimable ITC figure directly into your GST return workflow.</p>
+    </div>
+  </div>
+
+  <div style="background:var(--green-pale);border-radius:20px;padding:40px;margin-top:60px;text-align:center;border:1px solid var(--green-light)">
+    <div class="section-label">Data Privacy</div>
+    <h2 style="font-family:Syne,sans-serif;font-size:26px;font-weight:800;color:var(--green-deep);margin-bottom:12px">Your GST Data Never Leaves Your Browser</h2>
+    <p style="color:var(--gray-600);font-size:15px;max-width:560px;margin:0 auto 28px;line-height:1.7">All file parsing, matching, and ITC calculation happens entirely inside Chrome using local JavaScript. Only license validation communicates with our server &#8212; no GSTIN, invoice, or financial data is ever transmitted.</p>
+    <a href="../pricing/" class="btn-primary" style="margin-right:14px">Get a License</a>
+    <a href="https://infitaxsolution.github.io/GstSynPro/" target="_blank" class="btn-secondary">Try Free</a>
+  </div>
+</div>
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px">
+          <div style="width:36px;height:36px;background:linear-gradient(135deg,#0a4f2e,#22c55e);border-radius:9px;display:flex;align-items:center;justify-content:center;color:#fff;font-family:Syne,sans-serif;font-weight:800;font-size:15px">I</div>
+          <div>
+            <div style="color:#fff;font-family:Syne,sans-serif;font-weight:800;font-size:17px">Infitax Solution</div>
+            <div style="color:#22c55e;font-size:11px;font-weight:600;letter-spacing:.3px">Makers of GSTSyncPro</div>
+          </div>
+        </div>
+        <p>GSTSyncPro — advanced GSTR-2B reconciliation tool for Indian tax professionals. Gandhidham, Gujarat, India.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="../features/">Features</a>
+        <a href="../how-it-works/">How it Works</a>
+        <a href="../pricing/">Pricing</a>
+        <a href="../faq/">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="../policies/privacy/">Privacy Policy</a>
+        <a href="../policies/refund/">Refund Policy</a>
+        <a href="../policies/terms/">Terms of Use</a>
+        <a href="../policies/license/">License Policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:Infitaxsolution@gmail.com">Email Us</a>
+        <a href="https://wa.me/916354030446" target="_blank">WhatsApp</a>
+        <a href="../products/">Other Products</a>
+        <a href="https://infitaxsolution.github.io/GstSynPro/" target="_blank">Chrome Extension</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&#169; 2025 Infitax Solution. All rights reserved. GSTSyncPro is a registered brand of Infitax Solution.</p>
+      <p>Made with &#10084;&#65039; in India &#127470;&#127475;</p>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+<script src="../assets/script.js"></script>
+</body>
+</html>

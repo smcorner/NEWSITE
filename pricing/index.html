@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing — GSTSyncPro | Infitax Solution</title>
+<meta name="description" content="GSTSyncPro license plans: Silver ₹150/yr, Gold ₹350/yr, Platinum ₹5,000 lifetime. All prices inclusive of GST. 50% off — all payment methods accepted.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="../" class="nav-logo">
+      <div class="logo-icon">I</div>
+      <div class="logo-text">
+        <span class="logo-brand">Infitax Solution</span>
+        <span class="logo-sub">GSTSyncPro — GSTR-2B Reconciler</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../features/" data-nav="features">Features</a></li>
+      <li><a href="../how-it-works/" data-nav="how-it-works">How it Works</a></li>
+      <li><a href="../pricing/" data-nav="pricing">Pricing</a></li>
+      <li><a href="../faq/" data-nav="faq">FAQ</a></li>
+      <li><a href="../contact/" data-nav="contact">Contact</a></li>
+      <li><a href="../products/" data-nav="products" class="nav-products">Other Products</a></li>
+    </ul>
+    <a href="../pricing/" class="nav-cta">Buy License</a>
+    <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="../features/" onclick="toggleMenu()">Features</a>
+  <a href="../how-it-works/" onclick="toggleMenu()">How it Works</a>
+  <a href="../pricing/" onclick="toggleMenu()">Pricing</a>
+  <a href="../faq/" onclick="toggleMenu()">FAQ</a>
+  <a href="../contact/" onclick="toggleMenu()">Contact</a>
+  <a href="../products/" onclick="toggleMenu()">Other Products</a>
+  <a href="../pricing/" onclick="toggleMenu()" style="color:var(--green-mid);font-weight:700;margin-top:8px">&#128273; Buy License</a>
+</div>
+
+<div class="page-header">
+  <div class="section-inner">
+    <div class="section-label">License Plans</div>
+    <h1>Simple, Transparent Pricing</h1>
+    <p>All plans unlock every feature. All prices inclusive of GST. 50% launch offer — all payment methods accepted.</p>
+  </div>
+</div>
+
+<section class="pricing-bg">
+  <div class="section-inner">
+    <div class="discount-banner">&#127881; <strong>50% OFF</strong> launch offer — all payment methods accepted &nbsp;&middot;&nbsp; All prices <strong>inclusive of GST</strong></div>
+    <div class="plans">
+
+      <!-- SILVER -->
+      <div class="plan">
+        <div class="plan-icon">&#129352;</div>
+        <div class="plan-name">Silver</div>
+        <div class="plan-desc">Perfect for individual tax professionals</div>
+        <div class="plan-price">
+          <span class="price-original">&#8377;300 / year</span>
+          <span class="price-current">&#8377;150 <span>/ year</span></span>
+        </div>
+        <div class="price-note">Incl. GST &middot; 50% off &middot; All payment methods</div>
+        <ul class="plan-features">
+          <li>1 User License</li>
+          <li>1 Year Validity</li>
+          <li>All Features Unlocked</li>
+          <li>File Upload Enabled</li>
+          <li>Excel &amp; JSON Export</li>
+          <li>Email Support</li>
+          <li>Price inclusive of GST</li>
+        </ul>
+        <button class="plan-btn" onclick="openModal('silver')">Buy Silver &#8212; &#8377;150</button>
+      </div>
+
+      <!-- GOLD -->
+      <div class="plan popular">
+        <div class="popular-badge">&#11088; Most Popular</div>
+        <div class="plan-icon">&#129351;</div>
+        <div class="plan-name">Gold</div>
+        <div class="plan-desc">Ideal for CA firms &amp; small teams</div>
+        <div class="plan-price">
+          <span class="price-original">&#8377;700 / year</span>
+          <span class="price-current">&#8377;350 <span>/ year</span></span>
+        </div>
+        <div class="price-note">Incl. GST &middot; 50% off &middot; All payment methods</div>
+        <ul class="plan-features">
+          <li>Up to 5 Users</li>
+          <li>1 Year Validity</li>
+          <li>All Features Unlocked</li>
+          <li>File Upload Enabled</li>
+          <li>Excel &amp; JSON Export</li>
+          <li>Priority Email Support</li>
+          <li>Price inclusive of GST</li>
+        </ul>
+        <button class="plan-btn" onclick="openModal('gold')">Buy Gold &#8212; &#8377;350</button>
+      </div>
+
+      <!-- PLATINUM -->
+      <div class="plan">
+        <div class="plan-icon">&#128142;</div>
+        <div class="plan-name">Platinum</div>
+        <div class="plan-desc">Best value — pay once, use forever</div>
+        <div class="plan-price">
+          <span class="price-original">&#8377;10,000 one-time</span>
+          <span class="price-current">&#8377;5,000 <span>one-time</span></span>
+        </div>
+        <div class="price-note">Incl. GST &middot; 50% off &middot; All payment methods</div>
+        <ul class="plan-features">
+          <li>Up to 3 Users</li>
+          <li>Lifetime Validity</li>
+          <li>All Features Unlocked</li>
+          <li>File Upload Enabled</li>
+          <li>All Future Updates</li>
+          <li>Priority Support Forever</li>
+          <li>Price inclusive of GST</li>
+        </ul>
+        <button class="plan-btn" onclick="openModal('platinum')">Buy Platinum &#8212; &#8377;5,000</button>
+      </div>
+
+    </div>
+
+    <!-- COMPARISON NOTE -->
+    <div style="margin-top:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;text-align:center">
+      <div style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:18px">
+        <div style="font-size:22px;margin-bottom:6px">&#128274;</div>
+        <div style="font-size:13px;font-weight:600;color:#fff;margin-bottom:4px">All Payments Accepted</div>
+        <div style="font-size:12px;color:rgba(255,255,255,.55)">UPI, Cards, Net Banking, Wallets</div>
+      </div>
+      <div style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:18px">
+        <div style="font-size:22px;margin-bottom:6px">&#9889;</div>
+        <div style="font-size:13px;font-weight:600;color:#fff;margin-bottom:4px">Instant License Delivery</div>
+        <div style="font-size:12px;color:rgba(255,255,255,.55)">Key sent to email in minutes</div>
+      </div>
+      <div style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:18px">
+        <div style="font-size:22px;margin-bottom:6px">&#127760;</div>
+        <div style="font-size:13px;font-weight:600;color:#fff;margin-bottom:4px">100% Local Processing</div>
+        <div style="font-size:12px;color:rgba(255,255,255,.55)">Your GST data never leaves your device</div>
+      </div>
+      <div style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:18px">
+        <div style="font-size:22px;margin-bottom:6px">&#128234;</div>
+        <div style="font-size:13px;font-weight:600;color:#fff;margin-bottom:4px">GST Inclusive</div>
+        <div style="font-size:12px;color:rgba(255,255,255,.55)">No hidden charges — what you see is final</div>
+      </div>
+    </div>
+
+    <!-- FREE TRIAL -->
+    <div class="trial-box">
+      <h3>&#128994; Try Before You Buy</h3>
+      <p>Install GSTSyncPro free — all features are fully visible. File uploads are locked until you activate a license. Use the preloaded sample data to explore the full reconciliation workflow at no cost.</p>
+      <a href="https://infitaxsolution.github.io/GstSynPro/" target="_blank" class="btn-primary" style="display:inline-block">Add to Chrome &#8212; Free</a>
+    </div>
+  </div>
+</section>
+
+<!-- PLAN COMPARISON TABLE -->
+<section>
+  <div class="section-inner">
+    <div class="section-label">Compare Plans</div>
+    <div class="section-title">What&#8217;s included in each plan?</div>
+    <div style="overflow-x:auto;margin-top:36px">
+      <table style="width:100%;border-collapse:collapse;font-size:14px">
+        <thead>
+          <tr style="background:var(--green-deep);color:#fff">
+            <th style="padding:14px 18px;text-align:left;border-radius:12px 0 0 0;font-family:Syne,sans-serif">Feature</th>
+            <th style="padding:14px 18px;text-align:center;font-family:Syne,sans-serif">Silver<br><span style="font-size:12px;opacity:.7">&#8377;150 / yr</span></th>
+            <th style="padding:14px 18px;text-align:center;background:#166a40;font-family:Syne,sans-serif">Gold<br><span style="font-size:12px;opacity:.7">&#8377;350 / yr</span></th>
+            <th style="padding:14px 18px;text-align:center;border-radius:0 12px 0 0;font-family:Syne,sans-serif">Platinum<br><span style="font-size:12px;opacity:.7">&#8377;5,000 once</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background:#fff"><td style="padding:13px 18px;border-bottom:1px solid var(--gray-100);color:var(--gray-700)">Users</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100)">1</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);background:var(--green-pale)">Up to 5</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100)">Up to 3</td></tr>
+          <tr style="background:var(--gray-50)"><td style="padding:13px 18px;border-bottom:1px solid var(--gray-100);color:var(--gray-700)">Validity</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100)">1 Year</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);background:#e8f5e9">1 Year</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100)">Lifetime &#9654;</td></tr>
+          <tr style="background:#fff"><td style="padding:13px 18px;border-bottom:1px solid var(--gray-100);color:var(--gray-700)">All Features</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);color:var(--green-mid)">&#10003;</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);background:var(--green-pale);color:var(--green-mid)">&#10003;</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);color:var(--green-mid)">&#10003;</td></tr>
+          <tr style="background:var(--gray-50)"><td style="padding:13px 18px;border-bottom:1px solid var(--gray-100);color:var(--gray-700)">File Upload</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);color:var(--green-mid)">&#10003;</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);background:#e8f5e9;color:var(--green-mid)">&#10003;</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);color:var(--green-mid)">&#10003;</td></tr>
+          <tr style="background:#fff"><td style="padding:13px 18px;border-bottom:1px solid var(--gray-100);color:var(--gray-700)">Excel &amp; JSON Export</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);color:var(--green-mid)">&#10003;</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);background:var(--green-pale);color:var(--green-mid)">&#10003;</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);color:var(--green-mid)">&#10003;</td></tr>
+          <tr style="background:var(--gray-50)"><td style="padding:13px 18px;border-bottom:1px solid var(--gray-100);color:var(--gray-700)">Future Updates</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);color:var(--gray-600)">&#10005;</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);background:#e8f5e9;color:var(--gray-600)">&#10005;</td><td style="padding:13px 18px;text-align:center;border-bottom:1px solid var(--gray-100);color:var(--green-mid)">&#10003; Forever</td></tr>
+          <tr style="background:#fff"><td style="padding:13px 18px;color:var(--gray-700)">Support</td><td style="padding:13px 18px;text-align:center">Email</td><td style="padding:13px 18px;text-align:center;background:var(--green-pale)">Priority Email</td><td style="padding:13px 18px;text-align:center">Priority Forever</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px">
+          <div style="width:36px;height:36px;background:linear-gradient(135deg,#0a4f2e,#22c55e);border-radius:9px;display:flex;align-items:center;justify-content:center;color:#fff;font-family:Syne,sans-serif;font-weight:800;font-size:15px">I</div>
+          <div>
+            <div style="color:#fff;font-family:Syne,sans-serif;font-weight:800;font-size:17px">Infitax Solution</div>
+            <div style="color:#22c55e;font-size:11px;font-weight:600;letter-spacing:.3px">Makers of GSTSyncPro</div>
+          </div>
+        </div>
+        <p>GSTSyncPro — advanced GSTR-2B reconciliation tool for Indian tax professionals. Gandhidham, Gujarat, India.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="../features/">Features</a>
+        <a href="../how-it-works/">How it Works</a>
+        <a href="../pricing/">Pricing</a>
+        <a href="../faq/">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="../policies/privacy/">Privacy Policy</a>
+        <a href="../policies/refund/">Refund Policy</a>
+        <a href="../policies/terms/">Terms of Use</a>
+        <a href="../policies/license/">License Policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:Infitaxsolution@gmail.com">Email Us</a>
+        <a href="https://wa.me/916354030446" target="_blank">WhatsApp</a>
+        <a href="../products/">Other Products</a>
+        <a href="https://infitaxsolution.github.io/GstSynPro/" target="_blank">Chrome Extension</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&#169; 2025 Infitax Solution. All rights reserved.</p>
+      <p>Made with &#10084;&#65039; in India &#127470;&#127475;</p>
+    </div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="payModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">&#10005;</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+<script src="../assets/script.js"></script>
+</body>
+</html>

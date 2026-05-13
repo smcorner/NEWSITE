@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ — GSTSyncPro | Infitax Solution</title>
+<meta name="description" content="Frequently asked questions about GSTSyncPro: licensing, activation, data privacy, refunds, file formats and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="../" class="nav-logo">
+      <div class="logo-icon">I</div>
+      <div class="logo-text">
+        <span class="logo-brand">Infitax Solution</span>
+        <span class="logo-sub">GSTSyncPro — GSTR-2B Reconciler</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../features/" data-nav="features">Features</a></li>
+      <li><a href="../how-it-works/" data-nav="how-it-works">How it Works</a></li>
+      <li><a href="../pricing/" data-nav="pricing">Pricing</a></li>
+      <li><a href="../faq/" data-nav="faq">FAQ</a></li>
+      <li><a href="../contact/" data-nav="contact">Contact</a></li>
+      <li><a href="../products/" data-nav="products" class="nav-products">Other Products</a></li>
+      
+    </ul>
+    <a href="../pricing/" class="nav-cta">Buy License</a>
+    <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="../features/" onclick="toggleMenu()">Features</a>
+  <a href="../how-it-works/" onclick="toggleMenu()">How it Works</a>
+  <a href="../pricing/" onclick="toggleMenu()">Pricing</a>
+  <a href="../faq/" onclick="toggleMenu()">FAQ</a>
+  <a href="../contact/" onclick="toggleMenu()">Contact</a>
+  <a href="../products/" onclick="toggleMenu()">Other Products</a>
+  <a href="../pricing/" onclick="toggleMenu()" style="color:var(--green-mid);font-weight:700;margin-top:8px">&#128273; Buy License</a>
+</div>
+<div class="page-header">
+  <div class="section-inner">
+    <div class="section-label">Frequently Asked Questions</div>
+    <h1>Got Questions? We Have Answers.</h1>
+    <p>Everything you need to know about GSTSyncPro, licensing, data privacy, and support.</p>
+  </div>
+</div>
+<div class="page-inner">
+  <div class="faq-list">
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">What is the difference between the plans? <span class="faq-arrow">&#9660;</span></div>
+    <div class="faq-a">Silver is for 1 user for 1 year (&#8377;150 incl. GST). Gold is for up to 5 users for 1 year (&#8377;350 incl. GST). Platinum is for up to 3 users with lifetime access and all future updates (&#8377;5,000 incl. GST). All plans unlock the same features &#8212; only user count and validity differ. All prices shown are after the 50% launch discount.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">How do I activate my license? <span class="faq-arrow">&#9660;</span></div>
+    <div class="faq-a">After purchase, you will receive your license key via email at the address you provide during checkout. Open the GSTSyncPro extension, go to the Activate License screen, enter your email and license key, and click Verify &amp; Activate.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">Is my data safe? Does it upload anywhere? <span class="faq-arrow">&#9660;</span></div>
+    <div class="faq-a">Your financial data never leaves your device. GSTSyncPro processes all files locally inside your browser. Only license validation communicates with our server &#8212; no GST data, GSTIN, or invoice data is ever transmitted.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">Is the 50% discount available on all payment methods? <span class="faq-arrow">&#9660;</span></div>
+    <div class="faq-a">Yes &#8212; the 50% launch discount applies to <strong>all payment methods</strong>: UPI, Credit Card, Debit Card, Net Banking, Wallets, and more. All prices shown on the site are already after the discount and inclusive of GST. No coupon code needed.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">What file formats are supported for upload? <span class="faq-arrow">&#9660;</span></div>
+    <div class="faq-a">GSTSyncPro supports Excel (.xlsx, .xls) and CSV formats for all four file types &#8212; GSTR-2B Purchase, Books Purchase, GSTR-2B CN/DN, and Books CN/DN.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">Can I get a refund? <span class="faq-arrow">&#9660;</span></div>
+    <div class="faq-a">Refunds are only considered for proven technical deficiencies or service failures caused by Infitax Solution that cannot be resolved within 7 working days. Refunds are <strong>not available</strong> for change of mind, user-side compatibility issues, or general dissatisfaction. Annual plan requests must be raised within 7 days of purchase. See our full <a href="../policies/refund/">Refund Policy</a> or email <a href="mailto:Infitaxsolution@gmail.com">Infitaxsolution@gmail.com</a>.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">Does GSTSyncPro work offline? <span class="faq-arrow">&#9660;</span></div>
+    <div class="faq-a">Yes &#8212; reconciliation, matching, and export all work offline. An internet connection is only needed during initial license activation and periodic validation checks.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">How long does reconciliation take? <span class="faq-arrow">&#9660;</span></div>
+    <div class="faq-a">For most datasets (up to a few thousand records), GSTSyncPro completes all matching passes in under 10 seconds. Performance depends on your computer and browser, but it is significantly faster than manual spreadsheet reconciliation.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">Can I use the extension on multiple computers? <span class="faq-arrow">&#9660;</span></div>
+    <div class="faq-a">Each license is tied to the number of users &#8212; Silver (1 user), Gold (up to 5 users), Platinum (up to 3 users). You can install the extension on multiple devices, but only the licensed number of concurrent users may use file upload features.</div>
+  </div>
+  </div>
+  <div style="text-align:center;margin-top:50px;padding:36px;background:var(--green-pale);border-radius:20px;border:1px solid var(--green-light)">
+    <h3 style="font-family:Syne,sans-serif;font-size:20px;font-weight:800;color:var(--green-deep);margin-bottom:10px">Still have questions?</h3>
+    <p style="color:var(--gray-600);margin-bottom:20px">Our support team responds within 1 business day.</p>
+    <a href="../contact/" class="btn-primary" style="margin-right:12px">Contact Support</a>
+    <a href="https://wa.me/916354030446" target="_blank" class="btn-secondary">WhatsApp Us</a>
+  </div>
+</div>
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px">
+          <div style="width:36px;height:36px;background:linear-gradient(135deg,#0a4f2e,#22c55e);border-radius:9px;display:flex;align-items:center;justify-content:center;color:#fff;font-family:Syne,sans-serif;font-weight:800;font-size:15px">I</div>
+          <div>
+            <div style="color:#fff;font-family:Syne,sans-serif;font-weight:800;font-size:17px">Infitax Solution</div>
+            <div style="color:#22c55e;font-size:11px;font-weight:600;letter-spacing:.3px">Makers of GSTSyncPro</div>
+          </div>
+        </div>
+        <p>GSTSyncPro — advanced GSTR-2B reconciliation tool for Indian tax professionals. Gandhidham, Gujarat, India.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="../features/">Features</a>
+        <a href="../how-it-works/">How it Works</a>
+        <a href="../pricing/">Pricing</a>
+        <a href="../faq/">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="../policies/privacy/">Privacy Policy</a>
+        <a href="../policies/refund/">Refund Policy</a>
+        <a href="../policies/terms/">Terms of Use</a>
+        <a href="../policies/license/">License Policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:Infitaxsolution@gmail.com">Email Us</a>
+        <a href="https://wa.me/916354030446" target="_blank">WhatsApp</a>
+        <a href="../products/">Other Products</a>
+        <a href="https://infitaxsolution.github.io/GstSynPro/" target="_blank">Chrome Extension</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&#169; 2025 Infitax Solution. All rights reserved. GSTSyncPro is a registered brand of Infitax Solution.</p>
+      <p>Made with &#10084;&#65039; in India &#127470;&#127475;</p>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+<script src="../assets/script.js"></script>
+</body>
+</html>
